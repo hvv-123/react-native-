@@ -1,29 +1,29 @@
 import React from 'react';
 import styled from 'styled-components/native';
-import { TextInput,Button } from "react-native";
+import { TextInput, Button } from "react-native";
 const Register = props => (
     <Container>
-          <Heading>Register Here</Heading>
-         <TextInput placeholder="MObile number" style={{borderBottomColor:
-         '#000',borderWidth:1,padding:10,borderColor:'#fff',lineHeight: 30}}>
-             
-         </TextInput>
-         <TextInput placeholder="Password"  style={{borderBottomColor:
-         '#000',borderWidth:1,padding:10,borderColor:'#fff',lineHeight: 30}}>
-             
-             </TextInput>
-             <TextInput placeholder="Confirm Password"  style={{borderBottomColor:
-         '#000',borderWidth:1,padding:10,borderColor:'#fff',lineHeight: 30}}>
-             
-             </TextInput>
-             <TouchableOpacity>
-                    <Text>Create account</Text>
-                </TouchableOpacity>
-               
-     
+        <Heading>Register Here</Heading>
+        <TextInput placeholder="MObile number" style={{
+            borderBottomColor:
+                '#000', borderWidth: 1, padding: 10, borderColor: '#fff', lineHeight: 30
+        }}>
+        </TextInput>
+        <TextInput placeholder="Password" style={{
+            borderBottomColor:
+                '#000', borderWidth: 1, padding: 10, borderColor: '#fff', lineHeight: 30
+        }}>
+        </TextInput>
+        <TextInput placeholder="Confirm Password" style={{
+            borderBottomColor:
+                '#000', borderWidth: 1, padding: 10, borderColor: '#fff', lineHeight: 30
+        }}>
+        </TextInput>
+        <TouchableOpacity>
+            <Text>Create account</Text>
+        </TouchableOpacity>
     </Container>
 );
-
 
 export default Register;
 const Heading = styled.Text`
@@ -59,7 +59,7 @@ width:170px;
 margin-top: 20px;
 margin-left: 20px;
 `;
-const Cover=``;
+const Cover = ``;
 const TouchableOpacity = styled.View`
  padding: 15px;
  background: red;

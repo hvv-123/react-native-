@@ -3,7 +3,6 @@ import styled from 'styled-components/native';
 import {TextInput, Button } from "react-native";
 const Login = props => (
     <Container>
-                <Span>New User?? Register</Span>
         <Cover>
 
             <Heading>Login Here</Heading>
@@ -43,15 +42,15 @@ text-transform:uppercase;
 `
 const Container = styled.View`
 background-color: #ffffff;
+height:192px;
 width: 84%;
-height:auto;
 border-radius: 14px;
 box-shadow: -2px 12px 12px  #80808091;
 position:relative;
 left:50%;
 top:-80px;
 margin-left:-42%;
-padding:20px;
+padding:10px;
 `
 const Image = styled.Image`
 position: absolute;
@@ -74,7 +73,7 @@ margin-top:20px;
 `
 const Box = styled.View`
  position:absolute;
- top:108%;
+ top:100%;
  width:100%;
 `
 const TouchableOpacity = styled.View`
@@ -84,6 +83,7 @@ const TouchableOpacity = styled.View`
  border-radius: 45px;
  position:absolute;
  left:50%;
+ top:15px;
  margin-left:-50%;
  text-align: center;
  cursor:pointer;
